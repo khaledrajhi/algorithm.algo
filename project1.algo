@@ -1,0 +1,24 @@
+ALGORITHM project 1
+VAR
+a,i :INTEGER
+np : BOOLEAN
+BEGIN
+
+READ(a)
+
+np:=true
+
+FOR i FROM 2 TO a-1 STEP  DO 
+    IF (a%i=0) THEN
+    np:=false  
+    END_IF
+END_FOR
+
+IF (np=true) THEN
+    write("nombre premier")
+ELSE
+    WRITE("nombre non premier")
+END_IF
+END
+
+

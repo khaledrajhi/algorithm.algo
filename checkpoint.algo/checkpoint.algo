@@ -1,0 +1,36 @@
+VAR
+ph : STRING
+BEGIN
+
+    write("write a sentence ")
+    READ(ph)
+
+nb:=0
+FOR i FROM 0 TO ph.length-1  DO
+    nb:=nb+1
+END_FOR
+
+nb:=0
+FOR i FROM 0 TO ph.length-1    DO
+    IF (ch[i]=" " or ch[i]=".") THEN
+      nb:=nb+1   
+    END_IF
+    
+   
+END_FOR
+
+
+nb=0
+FOR i FROM 0 TO ph.length-1  DO
+    if (ch[i]={a,e,o,u} )
+    nb=nb+1
+END_FOR
+
+
+
+
+
+
+
+
+
